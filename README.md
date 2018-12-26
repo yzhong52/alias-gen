@@ -1,6 +1,6 @@
 # alias-gen
 
-Script for generating shortcut for opening repo from command line.
+The idea behind this script is that we have many git repos (dozens of them) working in an environment that embrace microservices. As a result, we have many folders under the workspace. It becomes time consuming simply switching from one git repo to another. This script is for generating a shortcut for opening repo from the command line. For example, if you have a repo called `Mumbai`, you can simply switch to that repo by typing `mumbai` in your terminal regardless where you are. 
 
 Use it like this:
 
