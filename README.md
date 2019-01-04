@@ -4,6 +4,12 @@ The idea behind this script is that we have many git repos (dozens of them) work
 
 Use it like this:
 
+    conda env create -f environment.yml # Replace `create` with `update` after the first run
+    source activate alias_gen
+    python alias_gen.py
+
+Or without conda:
+
 	pip3 install gitpython
 	python3 alias_gen.py
 
