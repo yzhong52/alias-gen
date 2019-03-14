@@ -21,7 +21,7 @@ for root, folders, files in os.walk(workspace):
             absolute_path=os.path.abspath(os.path.join(root, folder))
             print('alias ' + alias + '="cd ' + absolute_path + '"')
         except git.exc.InvalidGitRepositoryError:
-            print("# Skiping directory '" + folder + "' because it is not a git repo")
+            print("# Skipping directory '" + folder + "' because it is not a git repo")
 
     # breaking right away since we only care about one level deep
     break
